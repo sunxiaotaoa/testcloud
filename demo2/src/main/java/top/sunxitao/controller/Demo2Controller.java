@@ -14,6 +14,6 @@ public class Demo2Controller {
 
     @GetMapping("/demo2")
     public Object demo2(){
-        return "这是一个端口号为9004的子项目";
+        return "这是一个端口号为9004的子项目。哈哈哈";
     }
 }

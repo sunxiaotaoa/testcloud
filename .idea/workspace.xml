@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bdbecc4-f772-4066-9182-e9c1a3990de6" name="更改" comment="demo测试3">
-      <change afterPath="$PROJECT_DIR$/demo1/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/top/sunxitao/ServiceDemo2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/top/sunxitao/ServiceDemo2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/top/sunxitao/controller/Demo2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/top/sunxitao/controller/Demo2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jar/testcloud-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/sunxitao/ApplicationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/sunxitao/controller/DemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+    <list default="true" id="0bdbecc4-f772-4066-9182-e9c1a3990de6" name="更改" comment="demo多子项目测试1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/project/testcloud/demo2/src/main/resources",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/project/testcloud/demo2/jar&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\testcloud\demo2\jar" />
+      <recent name="E:\project\testcloud\demo1\jar" />
+      <recent name="E:\project\testcloud\demo2" />
       <recent name="E:\project\testcloud\demo2\src\main\resources" />
       <recent name="E:\project\testcloud\demo1" />
-      <recent name="E:\project\testcloud\jar" />
     </key>
   </component>
   <component name="RunManager" selected="应用程序.ServiceApplication">
@@ -142,13 +135,32 @@
       <option name="project" value="LOCAL" />
       <updated>1709106602145</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="demo多子项目测试1">
+      <created>1709107473568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709107473568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo测试1" />
     <MESSAGE value="demo测试2" />
     <MESSAGE value="demo测试3" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo测试3" />
+    <MESSAGE value="demo多子项目测试1" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo多子项目测试1" />
   </component>
 </project>
