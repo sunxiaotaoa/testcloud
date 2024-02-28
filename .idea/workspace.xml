@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bdbecc4-f772-4066-9182-e9c1a3990de6" name="更改" comment="demo测试2" />
+    <list default="true" id="0bdbecc4-f772-4066-9182-e9c1a3990de6" name="更改" comment="demo测试3">
+      <change afterPath="$PROJECT_DIR$/demo1/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/top/sunxitao/ServiceDemo2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/top/sunxitao/ServiceDemo2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/top/sunxitao/controller/Demo2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/top/sunxitao/controller/Demo2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/testcloud-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/sunxitao/ApplicationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/sunxitao/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,13 +52,48 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/project/testcloud/demo2/src/main/resources",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\testcloud\demo2\src\main\resources" />
+      <recent name="E:\project\testcloud\demo1" />
+      <recent name="E:\project\testcloud\jar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.ServiceApplication">
     <configuration name="ApplicationService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.sunxitao.ApplicationService" />
       <module name="testcloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.sunxitao.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.sunxitao.ServiceApplication" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.sunxitao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceDemo2Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.sunxitao.ServiceDemo2Application" />
+      <module name="demo2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.sunxitao.*" />
@@ -60,6 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ServiceApplication" />
+        <item itemvalue="应用程序.ServiceDemo2Application" />
         <item itemvalue="应用程序.ApplicationService" />
       </list>
     </recent_temporary>
@@ -87,12 +135,20 @@
       <option name="project" value="LOCAL" />
       <updated>1709106041404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="demo测试3">
+      <created>1709106602145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709106602145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo测试1" />
     <MESSAGE value="demo测试2" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo测试2" />
+    <MESSAGE value="demo测试3" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo测试3" />
   </component>
 </project>
